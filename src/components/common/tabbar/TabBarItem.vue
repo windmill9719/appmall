@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: "TabbarItem",
+    name: "TabBarItem",
     props:{
       link: String,
       activeColor:{

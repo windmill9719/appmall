@@ -1,15 +1,23 @@
 <template>
-  <div>首页
-  <img src="~img/tabbar/001-cart.svg" alt="" style="width: 50px">
+  <div>
+      <nav-bar class="home-nav"><div slot="center">首页</div></nav-bar>
   </div>
 </template>
 
 <script>
+  import NavBar from "components/common/NavBar";
   export default {
-    name: "Home"
+    name: "Home",
+    components:{
+      NavBar
+    }
   }
 </script>
 
 <style scoped>
+  .home-nav{
+    background-color: #2aa4f9;
+    color: #fff;
+  }
 
 </style>
